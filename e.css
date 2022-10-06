@@ -1,0 +1,44 @@
+img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS';
+}
+
+body{
+    background-color: violet;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 270px;
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 27px;
+    background-color: violet;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 27px;
+    background-color: violet;
+    margin: 20px;
+}
